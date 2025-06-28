@@ -1,0 +1,3 @@
+[submodule "bulge"]
+	path = bulge
+	url = https://github.com/OasisYiffOS/bulge
