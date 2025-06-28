@@ -14,14 +14,20 @@ gen_pkginfos () {
 }
 
 # TODO un-hardcode the server paths
+echo "UpdateRepoDb"
+echo "WARNING: This script requires some modification to fit your mirror."
+
+rdg=$oldpwd/repo-db-generator/target/release/repo-db-generator
 
 gen_pkginfos packages
 cd /srv/yiffos/core/x86_64/knot
-repo-db-generator/repo-db-generator packages
+$rdg $oldpwd/packages
+
+cd $oldpwd
 
 gen_pkginfos oasis-packages
 cd /srv/yiffos/extra/x86_64/knot
-/repo-db-generator/repo-db-generator oasis-packages
+$rdg $oldpwd/oasis-packages
 
 cd $oldpwd
 
