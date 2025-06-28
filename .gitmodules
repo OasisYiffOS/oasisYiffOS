@@ -1,3 +1,15 @@
 [submodule "bulge"]
 	path = bulge
 	url = https://github.com/OasisYiffOS/bulge
+[submodule "hole"]
+	path = hole
+	url = https://github.com/OasisYiffOS/hole
+[submodule "repo-db-generator"]
+	path = repo-db-generator
+	url = https://github.com/OasisYiffOS/repo-db-generator
+[submodule "oasis-minimal"]
+	path = oasis-minimal
+	url = https://github.com/OasisYiffOS/oasis-minimal
+[submodule "sheath"]
+	path = sheath
+	url = https://github.com/OasisYiffOS/sheath
