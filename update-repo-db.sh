@@ -13,13 +13,15 @@ gen_pkginfos () {
     done
 }
 
-gen_pkginfos ~/yiffOS/packages
-cd /srv/yiffos/core/x86_64/knot
-~/yiffOS/repo-db-generator/repo-db-generator ~/yiffOS/packages
+# TODO un-hardcode the server paths
 
-gen_pkginfos ~/yiffOS/my-misc-packages
+gen_pkginfos packages
+cd /srv/yiffos/core/x86_64/knot
+repo-db-generator/repo-db-generator packages
+
+gen_pkginfos oasis-packages
 cd /srv/yiffos/extra/x86_64/knot
-~/yiffOS/repo-db-generator/repo-db-generator ~/yiffOS/my-misc-packages
+/repo-db-generator/repo-db-generator oasis-packages
 
 cd $oldpwd
 
