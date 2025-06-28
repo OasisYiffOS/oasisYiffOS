@@ -13,3 +13,9 @@
 [submodule "sheath"]
 	path = sheath
 	url = https://github.com/OasisYiffOS/sheath
+[submodule "packages"]
+	path = packages
+	url = https://github.com/OasisYiffOS/packages
+[submodule "oasis-packages"]
+	path = oasis-packages
+	url = https://github.com/OasisYiffOS/oasis-packages
