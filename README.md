@@ -26,4 +26,5 @@ The contents of this repo, except for documentation, are submodules linking to t
 - repo-db-generator: Generates a database for package mirrors
 - packages: The main package repository (core)
 - oasis-packages: The oasis package repository (oasis)
+- [Maintaining oasisYiffOS](docs/maintaining.md)
 
