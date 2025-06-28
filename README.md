@@ -7,7 +7,8 @@ This is the main repo for oasisYiffOS. This is designed to be a new version of y
 - Support for more than x86_64 in the future
 - A bunch of documentation
 
-Current version: oasisYiffOS 1.0 (Thrust)
+> Current version: oasisYiffOS 0.0 (knot)
+Codenamed 'knot' to ensure compatibility with yiffOS, at least in the early stages. That way we can use their mirrors.
 
 ## Installation
 - A proper oasisYiffOS installer or installer image is in the works. 
