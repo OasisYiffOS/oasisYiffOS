@@ -76,3 +76,7 @@ i.e. packages that NEED to be added to get the most basic of systems working wit
 - uwufetch
 - sharutils
 - gettext
+## Broken packages
+Packages that aren't in yiffOS or oasisYiffOS in group 'base' due to a version change
+- nss
+- glib2
